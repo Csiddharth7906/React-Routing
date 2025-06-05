@@ -11,7 +11,6 @@ function Nav() {
           return  <span className={[
             e.isActive? 'text-red-500' : 'text-black',
             'font-bold',
-            
            ].join(" ")}>
               Home
             </span>
